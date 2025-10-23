@@ -1,0 +1,45 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif
+    color: #333;
+    background: linear-gradient(to right, #e9ecef, #9fb3c6)
+}
+
+.container{
+    background-color: #fff;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12 px rgba(0, 0, 0, 0,5);
+}
+
+.cabeçalho {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.cabeçalho img{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.cabeçalho h1{
+    background-color: antiquewhite;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.feiture-img{
+    margin: 20px 0;
+}
+
+.feiture-img figure img{
+    width: 100%;
+}
