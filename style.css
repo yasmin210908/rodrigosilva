@@ -6,9 +6,9 @@
 }
 
 body{
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
     color: #333;
-    background: linear-gradient(to right, #e9ecef, #9fb3c6)
+    background: linear-gradient(to right, #e6c5ab, rgb(193, 104, 62));
 }
 
 .container{
@@ -34,6 +34,7 @@ body{
     background-color: antiquewhite;
     font-size: 1.4rem;
     margin-top: 10px;
+    border: 2px solid rgb(188, 129, 90)
 }
 
 .feiture-img{
@@ -42,4 +43,16 @@ body{
 
 .feiture-img figure img{
     width: 100%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(249, 232, 211);
+    border-left: 2px solid rgb(188, 129, 90);
+    padding: 12px;
+    margin: 20px auto;
+    font-size: 1.8rem;
 }
